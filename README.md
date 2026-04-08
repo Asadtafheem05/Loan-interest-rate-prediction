@@ -1,2 +1,4 @@
 # Loan-interest-rate-prediction
-Loan Interest Rate Prediction System is a machine learning-based application that predicts the interest rate of a loan based on financial and personal details such as income, credit score, loan amount, and employment length.    
+Loan Interest Rate Prediction System is a machine learning-based application that predicts the interest rate of a loan based on financial and personal details such as income, credit score, loan amount, and employment length. 
+
+The project uses data preprocessing techniques such as one-hot encoding for categorical variables and feature scaling for numerical variables, followed by training a Ridge Regression model to predict interest rates. The trained model is then deployed using Streamlit to create an interactive web application where users can enter loan details and instantly receive the predicted interest rate along with interest amount and total repayment summary. This system reduces manual effort, improves decision-making speed, and enhances transparency in loan evaluation, making it useful for banks, fintech companies, and individuals.
